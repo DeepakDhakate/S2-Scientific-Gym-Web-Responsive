@@ -135,7 +135,7 @@ label {
     border-radius: 5px;
     box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.3);
     /* border: 5px solid darkcyan; */
-    margin: 20px;
+    margin: 20px 0px;
 }
 
 .workout-types .text-wrapper {
@@ -421,14 +421,7 @@ label {
 /* Android Smartphones */
 @media screen and (max-width: 480px) {
 
-    .workout-home {
-        height: auto;
-    }
     
-    .gallary-container img {
-        width: clamp(250px, 10vw, 320px);
-        height: auto;
-    }
 }
 
 /* Large Android Smartphones */

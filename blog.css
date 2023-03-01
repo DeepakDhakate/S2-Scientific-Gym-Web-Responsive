@@ -388,6 +388,7 @@ label {
         /* border-radius: 0%; */
         text-align: center;
         /* padding: 20px ; */
+        transform: translate(100px);
         transition: all .5s ease-in-out;
     }
 
