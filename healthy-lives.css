@@ -207,7 +207,7 @@ label {
 
 
 
-.seven-day-diet{
+.seven-day-diet {
     width: 100%;
     height: auto;
     margin: 0px auto;
@@ -215,20 +215,23 @@ label {
     /* background-color: #161b21; */
     /* border: 2px solid darkmagenta; */
 }
-.seven-day-diet .img-content{
+
+.seven-day-diet .img-content {
     width: 60%;
     margin: auto auto;
     /* border: 5px solid red; */
 }
-.seven-day-diet img{
+
+.seven-day-diet img {
     width: 100%;
 }
 
-.seven-day-diet h1{
+.seven-day-diet h1 {
     text-align: center;
     margin: 50px auto 20px auto;
 }
-.seven-day-diet p{
+
+.seven-day-diet p {
     width: 80%;
     text-align: center;
     letter-spacing: 1px;
@@ -238,7 +241,7 @@ label {
 
 
 
-.diet-plan{
+.diet-plan {
     width: 100%;
     height: auto;
     margin: 0px auto;
@@ -247,27 +250,31 @@ label {
     /* border: 2px solid darkmagenta; */
 }
 
-.diet-plan h3{
+.diet-plan h3 {
     text-align: center;
     margin: 0px 0px 40px 0px;
 }
-table{
+
+table {
     border: 1px solid;
     border-collapse: collapse;
     text-align: center;
     /* width: clamp(10%, 10vw, 1000%); */
 }
-th{
+
+th {
     color: #F05F28;
     padding: 10px 0px;
     border-bottom: 1px solid;
 }
-td:first-child{
+
+td:first-child {
     padding: 10px 1px;
     width: 5%;
     font-weight: 500;
 }
-td{
+
+td {
     padding: 10px clamp(1px, 1vw, 18px);
 }
 
@@ -278,7 +285,7 @@ td{
 
 
 
-.nutrition{
+.nutrition {
     width: 100%;
     height: auto;
     margin: 0px auto;
@@ -287,17 +294,20 @@ td{
     /* border: 2px solid darkmagenta; */
 
 }
-.nutrition .nutrition-heading{
+
+.nutrition .nutrition-heading {
     text-align: center;
     font-size: 36px;
     font-weight: 600;
 }
-.nutrition p{
+
+.nutrition p {
     width: clamp(350px, 0vw, 800px);
     text-align: center;
     margin: 20px auto;
 }
-.nutrition .list li{
+
+.nutrition .list li {
     color: #000;
     list-style: disc;
     margin: 10px 40px;
@@ -357,15 +367,28 @@ td{
         border-radius: 0%;
     }
 
-    .macronutients-container{
+    .macronutients-container {
         display: block;
     }
-    .left-macronutients-container{
+
+    .left-macronutients-container {
         width: 100%;
         margin: 20px 0px;
     }
-    .right-macronutients-container{
+
+    .right-macronutients-container {
         width: 100%;
+    }
+
+    .seven-day-diet .img-content {
+        width: 100%;
+    }
+    table{
+        font-size: 12px;
+        width: 100%;
+    }
+    .workout-home p{
+        width: 350px;
     }
 
 }
