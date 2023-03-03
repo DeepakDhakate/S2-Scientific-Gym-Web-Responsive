@@ -342,7 +342,7 @@ label {
     margin: 50px auto;
     padding: 0px clamp(10px, 10vw, 100px) 10px clamp(10px, 10vw, 100px);
     background-color: #161b21;
-    border: 2px solid darkmagenta;
+    /* border: 2px solid darkmagenta; */
 }
 
 .timing-container {
@@ -359,7 +359,7 @@ label {
 .timing-left-container img {
     width: 95%;
     height: auto;
-    box-shadow: 2px 2px 8px 2px rgba(255, 255, 255, 0.4);
+    box-shadow: 2px 2px 20px 2px rgba(255, 119, 0, 0.2);
 
 }
 
@@ -389,6 +389,10 @@ h3 {
 
 
 
+
+
+
+/* Register / Enquiry form Section */
 .register {
     width: 85%;
     height: auto;
@@ -397,7 +401,12 @@ h3 {
     /* background-color: #161b21; */
     /* border: 2px solid darkmagenta; */
 }
-
+.register .register-heading{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0px 30px 0px;
+}
 .register-container {
     display: flex;
     align-items: center;
@@ -451,7 +460,7 @@ textarea {
     margin: 0px auto;
     padding: 0px clamp(10px, 10vw, 30px) 100px clamp(10px, 10vw, 30px);
     background-color: #161b21;
-    border: 2px solid darkmagenta;
+    /* border: 2px solid darkmagenta; */
 }
 
 .review h1 {
@@ -474,7 +483,7 @@ textarea {
 
 .review-card {
     width: 350px;
-    height: 300px;
+    height: 320px;
     background: #FFFFFF;
     border: 1px solid #D9D9D9;
     box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
@@ -482,12 +491,15 @@ textarea {
 
     margin: 0 20px;
     padding: 20px;
+    
 }
 
 .review-card img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #F05F28;
 
 }
 
@@ -501,7 +513,11 @@ textarea {
 
 .review-card .review-title {
     font-size: 16px;
-    color: #106672;
+    color: #F05F28;
+    text-align: left;
+
+    position: relative;
+    right: 35px;
 }
 
 .review-container .review-card .para {
@@ -514,6 +530,12 @@ textarea {
     font-size: 16px;
 }
 
+.review-rating .star{
+    color: gold;
+}
+.review-rating .five{
+    color: lightgray;
+}
 .swiper-wrapper {
     padding: 10px 0 50px 0;
 }

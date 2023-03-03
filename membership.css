@@ -210,7 +210,7 @@ label {
     margin: 50px auto 0px auto;
     padding: 10px clamp(20px, 10vw, 100px) 100px clamp(20px, 10vw, 100px);
     /* background-color: #161b21; */
-    border: 2px solid darkmagenta;
+    /* border: 2px solid darkmagenta; */
 
 }
 
@@ -248,38 +248,42 @@ label {
     /* padding: 5px; */
 }
 
-.what-we-do-container .orange{
+.what-we-do-container .orange {
     background-color: #F05F28;
     transition: all 0.5s ease;
 }
-.what-we-do-container .orange:hover{
+
+.what-we-do-container .orange:hover {
     background-color: #000;
 }
 
-.what-we-do-container .black{
+.what-we-do-container .black {
     background-color: #000;
     transition: all 0.5s ease;
 }
-.what-we-do-container .black:hover{
+
+.what-we-do-container .black:hover {
     background-color: #F05F28;
 }
 
-.what-we-do-content #img-data{
+.what-we-do-content #img-data {
     width: 285px;
     height: 347px;
     object-fit: cover;
     padding: 0px;
     transition: all 0.5s ease;
 }
-.what-we-do-content #img-data:hover{
+
+.what-we-do-content #img-data:hover {
     opacity: 0.6;
 }
 
-.what-we-do-content h1{
+.what-we-do-content h1 {
     padding: 5px;
     color: white;
 }
-.what-we-do-content p{
+
+.what-we-do-content p {
     text-align: center;
     margin: 15px 0px;
     padding: 5px;
@@ -379,6 +383,19 @@ label {
     .plan-container .special-plan {
         /* width: 400px; */
         transform: scale(1);
+    }
+    .workout-home p{
+       width: 400px;
+    }
+    .what-we-do-container {
+        display: block;
+    }
+    .what-we-do-content {
+        width: 100%;
+        margin: auto auto;
+    }
+    .what-we-do-content #img-data{
+        width: 100%;
     }
 
 

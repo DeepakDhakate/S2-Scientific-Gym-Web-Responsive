@@ -72,48 +72,102 @@ label {
 
 
 
-.trainer-profile1{
+.trainer-profile1 {
     width: 100%;
-    height: 1000px;
-    margin:  auto;
-    padding: 100px clamp(20px, 10vw, 100px) 10px clamp(20px, 10vw, 100px);
+    /* height: 1000px; */
+    margin: auto;
+    padding: 100px clamp(20px, 7vw, 100px) 10px clamp(20px, 7vw, 100px);
     /* background-color: #161b21; */
     border: 10px solid darkmagenta;
     /* position: fixed; */
     top: 80px;
     /* background-size: ; */
 }
-
-.profile-container{
+.profile-container {
     width: 100%;
-    height: 100vh;
-    border: 5px solid orangered;
-
+    /* height: 100vh; */
     display: flex;
     justify-content: space-between;
-    
+    /* border: 5px solid orangered; */
 }
-.profile-left-container{
+
+.profile-left-container {
     width: 40%;
-    border: 10px solid;
-}
-.profile-left-container img{
-    width: 100%;
+    /* border: 10px solid; */
 }
 
-.profile-right-container{
-    width: 50%;
-    border: 10px solid;
+.profile-left-container h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 15px 0px 10px 0px;
+}
+.profile-left-container h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.profile-left-container p {
+    font-weight: 600;
+    margin: 0px 0px 0px 10px;
+}
+
+.profile-left-container p span {
+    font-weight: 300;
+    /* padding: 0px 0px 0px 10px; */
+}
+.about-profile p span {
+    padding: 0px 0px 0px 10px;
     
 }
-
-.home{
+.about-profile{
+    /* border: 2px solid; */
+    margin: 10px 0px 20px 0px;
+}
+.profile-left-container img {
     width: 100%;
-    height: 100vh;
-    border: 20px solid;
+}
+
+.profile-right-container {
+    width: 50%;
+    margin-top: 90px;
+    /* border: 10px solid;    */
+}
+
+.profile-right-container h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 15px 0px 0px 0px;
+}
+
+.profile-right-container .list li {
+    color: black;
+    margin: 0px 40px;
+    list-style: disc;
 }
 
 
+
+
+
+.home {
+    width: 100%;
+    height: auto;
+    border: 10px solid;
+}
+
+.home h1{
+    text-align: center;
+    margin: 40px 0px 0px 0px;
+    font-size: 42px;
+}
+.home .home-container{
+    width: 80%;
+    height: 400px;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.4);
+    border: 5px solid crimson;
+
+}
 
 
 
@@ -158,7 +212,7 @@ label {
     .workout-home {
         height: auto;
     }
-    
+
     .gallary-container img {
         width: clamp(250px, 10vw, 320px);
         height: auto;
@@ -167,13 +221,14 @@ label {
 
 /* Large Android Smartphones */
 @media screen and (max-width: 767px) {
-    .social-media{
+    .social-media {
         display: none;
     }
+
     label {
         display: block;
     }
-    
+
     .navbar .list {
         display: block;
         position: fixed;
@@ -189,69 +244,29 @@ label {
         /* padding: 20px ; */
         transition: all .5s ease-in-out;
     }
-    
+
     .navbar li {
         padding: 20px 0px;
     }
-    
+
     #check:checked~.list {
         /* left: 0px; */
         right: 0px;
         top: 80px;
         border-radius: 0%;
     }
-    
-    .workout-home {
-        height: auto;
-    }
-    .workout-home h1{
-       margin: clamp(10px, 10vw, 50px) 0px;
-    }
-    .workout-home p{
-       width: 300px;
-    }
-    .workout-home .start-btn {
-        margin-bottom: 20px;
-    }
 
-    .workout-types-content{
-        width: 100%;
+    .profile-container {
+        display: block;
     }
     
-    .trainer-content{
-        width: 100%;
-        margin: 20px 0px;
+    .profile-left-container {
+        width: 90%;
+    }
+    .profile-right-container {
+        width: 90%;
     }
 
-    .trainer .img-data{
-        width: 100%;
-        height: 260px;
-        border-radius: 0%;
-
-    }
-    .trainer .img-data:hover{
-        border: 5px solid #F05F28;
-    }
-    .img-data img {
-        width: 100%;
-        object-fit: cover;
-        /* height: px; */
-        border-radius: 0%;
-    }
-
-    .plan-container{
-        flex-direction: column;
-        height: auto;
-        margin: 0px;
-    }
-    .plan-content{
-        margin: 20px;
-    }
-    .plan-container .special-plan{
-        /* width: 400px; */
-        transform: scale(1);
-    }
-    
 
 }
 
@@ -265,11 +280,11 @@ label {
     .navbar .list .login {
         display: none;
     }
-    
+
     .home-left-container {
         width: 100%;
     }
-    
+
     .home-right-container {
         width: 100%;
         margin: 0px 0 0 0;
@@ -399,12 +414,11 @@ label {
 } */
 
 .footer-column,
-.footer-contact-column, 
+.footer-contact-column,
 ul,
 li,
 a,
-.footer-icons
-{
+.footer-icons {
     font-size: 16px;
     line-height: 30px;
     text-decoration: none;
@@ -420,8 +434,7 @@ a,
 }
 
 .footer-column,
-.footer-contact-column
-ul,
+.footer-contact-column ul,
 li,
 a:hover {
     color: #fff;
@@ -470,5 +483,3 @@ a:hover {
 
 
 /* Ending of Footer Section  */
-
-

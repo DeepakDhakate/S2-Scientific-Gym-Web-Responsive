@@ -254,6 +254,9 @@ label {
         width: 100%;
     }
 
+    .workout-home p {
+        width: 350px;
+    }
 }
 
 
