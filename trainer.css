@@ -139,7 +139,7 @@ label {
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
-    background-color: rgba(0, 0, 0, 0.2);
+    /* background-color: rgba(0, 0, 0, 0.2); */
     padding: 15px 5px;
 }
 
@@ -156,7 +156,7 @@ label {
 .trainer-right-container {
     width: 56%;
     padding: 0px 10px;
-    /* border: 2px solid; */
+    border: 1px solid #F05F28;
 }
 
 .trainer-right-container h1 {
@@ -186,7 +186,7 @@ label {
     flex-direction: row-reverse;
     justify-content: space-between;
     /* align-items: center; */
-    background-color: rgba(0, 0, 0, 0.2);
+    /* background-color: rgba(0, 0, 0, 0.2); */
     padding: 15px 5px;
 }
 
@@ -201,7 +201,7 @@ label {
     /* flex-direction: row-reverse; */
     justify-content: space-between;
     /* align-items: center; */
-    background-color: rgba(0, 0, 0, 0.2);
+    /* background-color: rgba(0, 0, 0, 0.2); */
     padding: 15px 5px;
 }
 
@@ -215,7 +215,7 @@ label {
     flex-direction: row-reverse;
     justify-content: space-between;
     /* align-items: center; */
-    background-color: rgba(0, 0, 0, 0.2);
+    /* background-color: rgba(0, 0, 0, 0.2); */
     padding: 15px 5px;
 }
 
