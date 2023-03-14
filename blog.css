@@ -187,7 +187,7 @@ label {
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
-    border: 2px solid darkmagenta;
+    /* border: 2px solid darkmagenta; */
 
 }
 
@@ -219,10 +219,10 @@ label {
     height: auto;
     margin: 50px auto;
     padding: 40px clamp(10px, 5vw, 100px) 40px clamp(10px, 5vw, 100px);
+    
     /* align-items: center; */
     /* background-color: #161b21; */
-
-    border: 2px solid darkmagenta;
+    /* border: 2px solid darkmagenta; */
 }
 
 .fitness-line {
@@ -403,52 +403,41 @@ label {
         border-radius: 0%;
     }
 
-    .timing-container {
-        flex-direction: column;
-    }
-
-    .timing-left-container {
-        width: 100%;
-    }
-
-    .timing-right-container {
-        width: 100%;
-    }
-
-    .gallary-container img {
-        width: clamp(320px, 10vw, 450px);
-    }
-
-    .gallary-container {
-        justify-content: space-evenly;
-    }
-
-    .review-container {
+    .home{
+        /* flex-direction: column; */
         display: block;
     }
-
-    .register-left-content {
-        display: none;
-    }
-
-    .register-right-content {
+    .home-left-container{
         width: 100%;
     }
-
-    .review-container {
-        padding: 0px;
+    .home-right-container{
+        width: 100%;
+        margin: 0px 0px 0px 0px;
     }
 
-
-
-
-
-
-
-    .provide p {
-        padding: 0px clamp(0px, 1vw, 10px);
+    .calculator{
+        /* flex-direction: column; */
+        display: block;
+    }
+    .calculator-left-container{
+        width: 100%;
+    }
+    .calculator-right-container{
+        width: 100%;
+        margin: 50px 0px 0px 0px;
     }
 
+    .fitness {
+        margin: 0px auto;
+        /* padding: 20px auto; */
+    }
+
+    .fitness-container{
+        display: block;
+    }
+    .fitness-content{
+        margin: 30px auto;
+    }
 }
 
 
