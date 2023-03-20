@@ -151,7 +151,7 @@ label {
 
 .achieve-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin: 0px clamp(20px, 10vw, 100px);
     padding: 30px 0px;
@@ -159,7 +159,7 @@ label {
 }
 
 .achieve-cards {
-    width: 250px;
+    width: 265px;
     /* height: 250px; */
     /* border: 1px solid black; */
     padding: 10px 15px;
@@ -170,6 +170,7 @@ label {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
 }
 
 .achieve-cards img {
@@ -186,6 +187,7 @@ label {
     color: whitesmoke;
     font-weight: 500;
     font-size: 20px;
+    margin: 8px 0px;
 }
 
 .achieve-cards p {
